@@ -1,1 +1,83 @@
 /* Styles for the Advanced Markup assignment. */
+
+nav ul li {
+	display: inline;
+}
+
+a.active {
+	font-weight: bold;
+}
+
+#sidebar {
+	position: static;
+	top: 10px;
+	right: 30px;
+	width: 250px;
+	float: right;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 20px;
+	margin-left: 40px;
+	border: 10px double;
+	border-width: 5px;
+	padding: 25px;
+	margin: 10px;
+}
+
+.bio-photo {
+	float: left;
+	margin: 0px;
+	padding: 10px;
+}
+
+body {
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+.poem li {
+	font-size: 30px;
+	font-style: italic;
+	padding-right: 0px;
+	text-align: center;
+}
+
+#content {
+	text-align: left;
+}
+
+#selected_works {
+	text-align: left;
+}
+
+body {
+	background-image: url(paper.jpg);
+	background-repeat: repeat: initial;
+}
+
+ul.top-nav {
+	text-align: center;
+}
+
+ul.bibliography {
+	list-style-type: none;
+}
+
+a:link {
+	color: darkred;
+}
+
+a:visited {
+	color: darkred;
+}
+
+a:hover {
+	color: darkblue;
+}
